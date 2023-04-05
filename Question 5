@@ -1,0 +1,15 @@
+//Import the file 'external.js'
+import {printSomething} from "./external.js";
+
+// to test out if code works:
+const person = {
+    name: 'Jay',
+    item: 'forms'
+};
+
+//Destructure the imported function
+function printSomething({name,item}){
+    console.log(`${name} is printing ${item}`);
+}
+
+printSomething(person);
