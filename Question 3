@@ -1,0 +1,29 @@
+const dog = {
+    petName:"Bobby", breed:"Poodle"
+};
+
+for (const property in dog) {
+  console.log(`${property}: ${dog[property]}`);
+}
+
+
+
+
+//to print value
+/*
+let txt = "";
+for (let x in dog) {
+    txt += dog[x] + " ";
+}
+console.log(txt)
+*/
+
+//to print keys
+/* 
+for (let k in dog) {
+    if (dog.hasOwnProperty(k)) {
+        console.log("The keys are: " + k)
+    }
+}
+*/
+
